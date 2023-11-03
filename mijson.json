@@ -1,10 +1,9 @@
-
 {
-    "key": 1,
-    "string": "string",
-    "array": [],
-    "null": null,
-    "objetos": {},
+  "key": 1,
+  "string": "string",
+  "array": [],
+  "null": null,
+  "objetos": {},
 
-    "boolean": false
+  "boolean": false
 }

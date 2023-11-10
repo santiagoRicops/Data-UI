@@ -21,7 +21,7 @@ figure {
   transition: 0.2s;
 }
 span{
-  font-weight: 500;
+  font-weight: 400;
 }
 /*header*/
 .fondoPrincipal {
@@ -34,7 +34,7 @@ span{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px 30px 20px;
+  padding: 0 30px 30px 30px;
   
 }
 /*logo 1*/
@@ -135,6 +135,7 @@ span{
   background-size: contain;
   margin-top: -30px;
   text-align: center;
+  padding: 30px;
 }
 .todosLosPokemon .todosLosPokemonTitle {
   font-size: 80px;
@@ -161,6 +162,7 @@ span{
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  padding-bottom: 100px;
 }
 
 .card-container {
@@ -400,7 +402,7 @@ span{
 
 
 
-@media (max-width:700px){
+@media (max-width:600px){
  
  .headerPrincipal{
   display: block;

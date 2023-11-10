@@ -4,6 +4,8 @@ const pokemonContainer = document.querySelector('#pokemones-container')
 const buttonFilterZ_A = document.querySelector('.FiltradoDeZ-A')
 const buttonFilterA_Z = document.querySelector('.FiltradoDeA-Z')
 
+
+
 const input = document.querySelector('.InputBusqueda')
  const lookFor = document.querySelector('.LupaBuscador')
 
@@ -151,14 +153,25 @@ pokemonContainer.innerHTML = ''
     cardPokemon.appendChild(footerPokemonCard)
     pokemonContainer.appendChild(cardPokemon)
 
+    
 
   })
 
 }
 
+
+
+const inputValue = function() {
+  const p = filter.searcher(pokemonsArry, input)
+  creacionDeTarjeta(p)
+}
+lookFor.addEventListener('click', inputValue)
+
 const seeTheCards = () => {
   creacionDeTarjeta(pokemonsArry)
+  
+ 
 }
 
 seeTheCards()
-
+//pokemonsArry.filter((nameFilterPokemons)=> nameFilterPokemons.name === input.value)

@@ -10,4 +10,11 @@ export const filter = {
     const filterZ_A = pokemons.sort((a, b)=>  b.name.localeCompare(a.name))
     return filterZ_A
   },
+  searcherButton(){
+    const searcherButtonNormal = searcherPokemonTypeNormal.filter((TypePokemonsNormal)=> TypePokemonsNormal.type === '')
+  }
+  ,searcher(pokemonsArry, input){
+  const searcherPokemos =  pokemonsArry.filter((nameFilterPokemons)=> nameFilterPokemons.name === input.value)
+   return  searcherPokemos
+  }
 }

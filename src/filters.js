@@ -9,7 +9,7 @@ export const filter = {
   Z_A(pokemons) {
     const filterZ_A = pokemons.sort((a, b)=>  b.name.localeCompare(a.name))
     return filterZ_A
-  },
+  }, 
   searcherButton(){
     const searcherButtonNormal = searcherPokemonTypeNormal.filter((TypePokemonsNormal)=> TypePokemonsNormal.type === '')
   }

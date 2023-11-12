@@ -177,4 +177,11 @@ const inputValue = function () {
 lookFor.addEventListener('click', inputValue)
 
 
+const seeTheCards = () => {
+  creacionDeTarjeta(pokemonsArry)
+  
+ 
+}
+
+seeTheCards()
 //pokemonsArry.filter((nameFilterPokemons)=> nameFilterPokemons.name === input.value)
